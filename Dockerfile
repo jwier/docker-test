@@ -1,4 +1,4 @@
-FROM openshift/amg-tomcat-rhel7:7
+FROM registry.paas.amgen.com/openshift/amg-tomcat-rhel7:7
 
 COPY fdrd.war $JWS_HOME/webapps
 
